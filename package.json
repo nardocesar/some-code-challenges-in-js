@@ -1,0 +1,13 @@
+{
+  "name": "some-code-challenges-in-js",
+  "author": "Carlos Nardo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
