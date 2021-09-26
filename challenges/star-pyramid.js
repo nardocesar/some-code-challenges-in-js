@@ -15,8 +15,7 @@ const pyramid = (number) => {
     if (rowIndex < number) stringToShow += "\n";
   }
 
-  console.log(stringToShow);
   return stringToShow;
 };
 
-pyramid(4);
+console.log(pyramid(4));
