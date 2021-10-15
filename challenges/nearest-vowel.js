@@ -34,7 +34,7 @@ const indexOfO = alphabetArray.indexOf("o");
 const indexOfU = alphabetArray.indexOf("u");
 
 const nearestVowelOf = (letter) => {
-  if (typeof letter !== "string" || letter.length > 1) return "Não é uma letra";
+  if (typeof letter !== "string" || letter.length > 1) return "Not a letter";
 
   switch (letter) {
     case "a":
